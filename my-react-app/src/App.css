@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.file-container{
+  width: 80%;
+  min-height: 200px;
+  margin: 40px auto;
+}
+
+.file-container span{
+  width: 33%;
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.file-container ul{
+  list-style: none;
+  width: 100%;
+}
+
+.file-container ul p{
+  float: left;
+  display: block;
+  margin-right: 8%;
+  width: 25%;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+
+.file-container ul button{
+  width: 33%;
+  height: 35px;
+  line-height: 35px;
+}
+.App form{
+  height: 40px;
+  line-height: 40px;
+  margin: 40px auto;
+}
