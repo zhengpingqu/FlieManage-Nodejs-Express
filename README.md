@@ -54,11 +54,11 @@ Nodejs在线文件管理工具，Nodejs-Express-前后端分离-跨域
 ```m
 > cd FlieManage-Nodejs-Express\my-express
 > npm install
-> npm start
+> node app.js
 ```
 *可在本地打开 localhost:8000/list 下查看*
 
-3.*再进入前端项目：my-react-app，安装依赖并运行项目*
+3.*再进入前端项目：my-react-app，安装依赖并运行项目——一定要在新的一个界面下打开项目，防止前后端项目冲突项目*
 
 ```m
 > cd FlieManage-Nodejs-Express\my-react-app
@@ -72,12 +72,14 @@ Nodejs在线文件管理工具，Nodejs-Express-前后端分离-跨域
 
 > 先运行后端项目：my-express
 
->> `npm start` 
+>> `node app.js` 
+
 在浏览器里面输入下面端口并打开：http://localhost:8000/list
 
 > 再运行前端项目：my-react-app
 
->> `npm start` 
+>> `yarn start` 
+
 在浏览器里面输入下面端口并打开：http://localhost:3000
 
 **我们可以在前端项目里面看到后端项目提供的数据，同时还可以导入新文件和下载目录中的文件**
