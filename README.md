@@ -10,22 +10,28 @@ Nodejs在线文件管理工具，Nodejs-Express-前后端分离-跨域
 
 #### 安装教程
 
-```m
-*下载包*
-> https://github.com/Geek-LHJ/FlieManage-Nodejs-Express.git
+1.*下载包 *
 
-*先进入后端项目 ：my-express,安装依赖并运行项目*
+```m
+> https://github.com/Geek-LHJ/FlieManage-Nodejs-Express.git
+```
+2.*先进入后端项目 ：my-express,安装依赖并运行项目*
+```m
 > cd FlieManage-Nodejs-Express\my-express
 > npm install
 > npm start
+```
 *可在本地打开 localhost:8000/list 下查看*
 
-*再进入前端项目：my-react-app，安装依赖并运行项目*
+3.*再进入前端项目：my-react-app，安装依赖并运行项目*
+
+```m
 > cd FlieManage-Nodejs-Express\my-react-app
 > yarn install
 > yarn start
-*可在本地打开 localhost:3000 下查看*
 ```
+*可在本地打开 localhost:3000 下查看*
+
 
 #### 使用说明
 
@@ -43,7 +49,7 @@ Nodejs在线文件管理工具，Nodejs-Express-前后端分离-跨域
 
 #### 运行效果截图
 
-![后端数据展示图](imgs/1png)
+![后端数据展示图](imgs/1.png)
 
 ![前端页面展示图](imgs/2.png)
 
